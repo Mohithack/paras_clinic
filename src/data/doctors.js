@@ -1,0 +1,26 @@
+export const doctors = [
+  {
+    id: 1,
+    name: 'Dr. Paras',
+    phone: '8559089091',
+    specialty: 'General Physician',
+    experience: '10+ Years',
+    education: 'MBBS, MD',
+    bio: 'Dr. Paras is a highly experienced general physician with a passion for patient care and medical education. He specializes in preventive medicine and chronic disease management.',
+    image: null,
+    color: 'blue',
+    availableSlots: ['09:00', '09:30', '10:00', '10:30', '11:00', '11:30', '14:00', '14:30', '15:00', '15:30', '16:00'],
+  },
+  {
+    id: 2,
+    name: 'Dr. Isha',
+    phone: '8699579092',
+    specialty: 'Pediatrician',
+    experience: '8+ Years',
+    education: 'MBBS, DCH',
+    bio: 'Dr. Isha is a dedicated pediatrician committed to child health and wellness. She also teaches medical students and residents, making complex topics easy to understand.',
+    image: null,
+    color: 'pink',
+    availableSlots: ['10:00', '10:30', '11:00', '11:30', '12:00', '15:00', '15:30', '16:00', '16:30', '17:00'],
+  },
+]
